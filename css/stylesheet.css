@@ -1,0 +1,170 @@
+/* Majed Alasemi */
+
+@media only screen and (max-width:900px) {
+   #h1 { text-align: center;
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+  }
+  p {font-size: 20px;
+  }
+  .menu a {
+  background-color: #c37c60;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  text-align: center;
+}
+	#current{
+	background-color: #ddd;
+}
+	.column, input[type=submit] {
+    width: auto;
+    margin-top: 0;
+  }
+
+  
+}
+#button1{  text-align: center;
+}
+/*-----------------------------------*/
+#header2{
+display: block;
+}
+
+body {  margin: 0% 5% 0% 5%;
+	background-image: url(../img/11.jpg);
+	background-repeat: repeat;
+	}
+		
+main { background-color: #f3ce92;
+	}	
+
+#h1 {   text-align: center;
+	color:black;
+	font-size: 6vw;
+	font-weight: bold;
+	}
+
+.menu {background-color: #c37c60;
+ padding: 10px;
+ margin: 0px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Lato';
+  padding: 10px;
+}
+
+.menu a:hover {
+        background-color: #ddd;
+        color: black;
+	}
+
+footer { font-size: 1.2em;
+	text-align: center;
+	clear: right;
+	padding: 0.2px;
+	background-color: #c37c60;
+	}
+
+/*
+topnav
+*/
+	
+.title { text-align: left;
+	font-weight: bold;
+	color: #00AB99;
+	margin-left: 15px;
+
+	}
+
+#current {
+	background-color: #ddd;
+}
+
+p {     font-size: 18px;
+	font-family: Comic Sans MS, Century Gothic, Arial, sans-serif;
+	color: black;
+	margin-left: 15px;
+	}
+
+.img {
+  float: right;
+  margin-left: 20px;
+  max-width:100%;
+  height:auto;
+	}
+
+/*
+top head
+*/
+#tophead { text-align: center; }
+
+.clearFloatRight  {
+	clear:right;
+	}
+/*
+contact us being here
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  
+  background-color: #f3ce92;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 30%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+textarea {resize: none;
+	border-radius: 5px;
+}
+input, select { border-radius: 5px;
+}
+
